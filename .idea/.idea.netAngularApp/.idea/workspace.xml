@@ -4,7 +4,20 @@
     <projectFile>API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Initial project build" />
+    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Initial project build 2">
+      <change afterPath="$PROJECT_DIR$/API/Entities/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B24CDE32-D7D9-4438-8FA3-1287737B2BCF/a3/f7141f89/IApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
+      <option value="$PROJECT_DIR$/API/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" />
+      <option value="$PROJECT_DIR$/API/Entities/AppUser.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1m1hQ4eX1eDVCOmDImkBAT9sW5E" />
   <component name="ProjectLevelVcsManager">
@@ -33,6 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -76,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608666986310</updated>
       <workItem from="1608667003395" duration="4213000" />
-      <workItem from="1609192374740" duration="565000" />
+      <workItem from="1609192374740" duration="3709000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project build">
       <created>1609192460906</created>
@@ -85,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609192460906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial project build 2">
+      <created>1609193167882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609193167882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +139,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial project build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project build" />
+    <MESSAGE value="Initial project build 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial project build 2" />
   </component>
 </project>
