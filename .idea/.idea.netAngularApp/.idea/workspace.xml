@@ -4,7 +4,15 @@
     <projectFile>API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Todo cleanup" />
+    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Add GitIgnore">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/datingapp.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/datingapp.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/datingapp.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/datingapp.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608666986310</updated>
       <workItem from="1608667003395" duration="4213000" />
-      <workItem from="1609192374740" duration="12829000" />
+      <workItem from="1609192374740" duration="13214000" />
+      <workItem from="1609274638840" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project build">
       <created>1609192460906</created>
@@ -152,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609274226412</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add GitIgnore">
+      <created>1609274582499</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609274582499</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +199,7 @@
     <MESSAGE value="Lesson 15 Controllers Added with Data, postman check" />
     <MESSAGE value="Lesson 16 add Async tasks" />
     <MESSAGE value="Todo cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todo cleanup" />
+    <MESSAGE value="Add GitIgnore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GitIgnore" />
   </component>
 </project>

@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Rich\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Rich\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_netAngularApp.872556968.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Rich\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Rich\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Rich\Documents\GitHub\netAngularApp" t="IncludeFlat">
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
@@ -22,8 +24,6 @@
           </e>
         </e>
         <e p="datingapp.db" t="Include" />
-        <e p="datingapp.db-shm" t="Include" />
-        <e p="datingapp.db-wal" t="Include" />
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
         </e>
