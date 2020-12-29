@@ -4,20 +4,46 @@
     <projectFile>API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Lesson 9">
-      <change afterPath="$PROJECT_DIR$/API/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Lesson 10 EntityFramework setup">
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Entities/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Entities/AppUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/ref/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/ref/API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/ref/API.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +60,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/API/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" />
       <option value="$PROJECT_DIR$/API/Entities/AppUser.cs" />
       <option value="$PROJECT_DIR$/API/Data/DataContext.cs" />
+      <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/API/Startup.cs" />
     </changedPaths>
   </component>
@@ -58,7 +84,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -102,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608666986310</updated>
       <workItem from="1608667003395" duration="4213000" />
-      <workItem from="1609192374740" duration="5190000" />
+      <workItem from="1609192374740" duration="8129000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project build">
       <created>1609192460906</created>
@@ -125,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609199029306</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 10 EntityFramework setup">
+      <created>1609200445866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609200445866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +184,7 @@
     <MESSAGE value="Initial project build" />
     <MESSAGE value="Initial project build 2" />
     <MESSAGE value="Lesson 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 9" />
+    <MESSAGE value="Lesson 10 EntityFramework setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 10 EntityFramework setup" />
   </component>
 </project>

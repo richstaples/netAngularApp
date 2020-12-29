@@ -14,6 +14,11 @@
         </e>
         <e p="Data" t="Include">
           <e p="DataContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="20201229183237_InitialCreate.cs" t="Include" />
+            <e p="20201229183237_InitialCreate.Designer.cs" t="Include" />
+            <e p="DataContextModelSnapshot.cs" t="Include" />
+          </e>
         </e>
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
