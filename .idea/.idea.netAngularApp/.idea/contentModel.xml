@@ -12,6 +12,9 @@
         <e p="Controllers" t="Include">
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
+        <e p="Data" t="Include">
+          <e p="DataContext.cs" t="Include" />
+        </e>
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
         </e>
