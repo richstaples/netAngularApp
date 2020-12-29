@@ -1,40 +1,45 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    /// <summary>
-    /// todo summary
-    /// </summary>
     public class UsersController : ControllerBase
     {
         private readonly DataContext _context;
 
+        /// <summary>
+        /// todo controller description
+        /// </summary>
+        /// <param name="context"></param>
         public UsersController(DataContext context)
         {
             _context = context;
         }
 
+        /// <summary>
+        /// todo summary
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<AppUser>> GetUsers()
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
-            return _context.Users.ToList();
+            return await _context.Users.ToListAsync();
         }
 
         /// <summary>
-        /// 
+        /// todo summary
         /// </summary>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public ActionResult<AppUser> GetUser(int id)
+        public async Task<ActionResult<AppUser>> GetUser(int id)
         {
-            return _context.Users.Find(id);
+            return await _context.Users.FindAsync(id);
         }
     }
 }
