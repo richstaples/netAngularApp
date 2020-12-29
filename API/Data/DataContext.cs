@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace API.Data
 {
     /// <summary>
-    /// todo summary
+    /// Data Context class for EF functionality
     /// </summary>
     public class DataContext : DbContext
     {

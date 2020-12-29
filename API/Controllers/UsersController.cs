@@ -14,7 +14,7 @@ namespace API.Controllers
         private readonly DataContext _context;
 
         /// <summary>
-        /// todo controller description
+        /// Controller to provide user functions
         /// </summary>
         /// <param name="context"></param>
         public UsersController(DataContext context)
@@ -23,9 +23,9 @@ namespace API.Controllers
         }
 
         /// <summary>
-        /// todo summary
+        /// Gets all Users defined in the Users table of the Application Database
         /// </summary>
-        /// <returns></returns>
+        /// <returns>A list of users in the format of Id,Name</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
@@ -33,9 +33,10 @@ namespace API.Controllers
         }
 
         /// <summary>
-        /// todo summary
+        /// Gets a User specified by the Id
         /// </summary>
-        /// <returns></returns>
+        /// <param name="id">Id of the User</param>
+        /// <returns> User in the format of Id,Name</returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
