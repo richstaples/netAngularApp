@@ -10,6 +10,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="UsersController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
@@ -20,6 +21,9 @@
             <e p="DataContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
+        <e p="datingapp.db" t="Include" />
+        <e p="datingapp.db-shm" t="Include" />
+        <e p="datingapp.db-wal" t="Include" />
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
         </e>
