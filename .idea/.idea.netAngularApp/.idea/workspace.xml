@@ -4,10 +4,7 @@
     <projectFile>API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Lesson 15 Controllers Added with Data, postman check">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.netAngularApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/UsersController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e2bb9ec9-cd2f-48e1-865e-2d524aced34a" name="Default Changelist" comment="Todo cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +17,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B24CDE32-D7D9-4438-8FA3-1287737B2BCF/a3/f7141f89/IApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Rich/Documents/GitHub/netAngularApp/API/Controllers/UsersController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Rich/Documents/GitHub/netAngularApp/API/Data/DataContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/API/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" />
       <option value="$PROJECT_DIR$/API/Entities/AppUser.cs" />
-      <option value="$PROJECT_DIR$/API/Data/DataContext.cs" />
       <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/API/Startup.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e06713e3-7474-4155-8797-1dbbdd4224d5/console_1.sql" />
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e06713e3-7474-4155-8797-1dbbdd4224d5/console_2.sql" />
       <option value="$PROJECT_DIR$/API/Controllers/UsersController.cs" />
+      <option value="$PROJECT_DIR$/API/Data/DataContext.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m1hQ4eX1eDVCOmDImkBAT9sW5E" />
@@ -95,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608666986310</updated>
       <workItem from="1608667003395" duration="4213000" />
-      <workItem from="1609192374740" duration="12317000" />
+      <workItem from="1609192374740" duration="12829000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project build">
       <created>1609192460906</created>
@@ -139,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609269267512</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson 16 add Async tasks">
+      <created>1609273763713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609273763713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Todo cleanup">
+      <created>1609274226412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609274226412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +181,8 @@
     <MESSAGE value="Lesson 10 EntityFramework setup" />
     <MESSAGE value="Lesson 13 EntityFramework migrations" />
     <MESSAGE value="Lesson 15 Controllers Added with Data, postman check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 15 Controllers Added with Data, postman check" />
+    <MESSAGE value="Lesson 16 add Async tasks" />
+    <MESSAGE value="Todo cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo cleanup" />
   </component>
 </project>
