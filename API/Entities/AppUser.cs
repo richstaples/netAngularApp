@@ -14,5 +14,10 @@
         /// Username of the User
         /// </summary>
         public string Username { get; set; }
+        
+        /// <summary>
+        /// User First Name
+        /// </summary>
+        public string Firstname { get; set; }
     }
 }
