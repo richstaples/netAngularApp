@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
@@ -41,6 +42,33 @@ namespace API.Controllers
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
             return await _context.Users.FindAsync(id);
+        }
+
+        [HttpPost("{id}")]
+        public async Task<ActionResult<bool>> UpdateUserFirstName(int id, string firstname)
+        {
+            //retrieve the user
+            var user = new AppUser()
+            {
+                Id = id,
+                Firstname = firstname
+            };
+
+            await using (var context = _context)
+            {
+                try
+                {
+                    context.Update(user);
+                    await context.SaveChangesAsync();
+                    return true;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                    return false;
+                    //throw;
+                }
+            }
         }
     }
 }
